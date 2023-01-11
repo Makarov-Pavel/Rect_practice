@@ -1,0 +1,16 @@
+.open-modal-container{
+    width: max-content;
+    margin:20% auto 0;
+}
+.open-modal-btn{
+    display: flex;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #C2004A;
+    color:#fff;
+    font-size: 20px;
+    text-shadow: 2px 1px 1px #000;
+}
+.open-modal-btn:active{
+    transform: scale(0.9);
+}
