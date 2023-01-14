@@ -3,6 +3,7 @@ import Counter from "./components/Counter/Counter";
 import "./index.css";
 import { useState } from "react";
 import OpenModal from "./components/Modal/OpenModal";
+import Questionnaire from "./components/Questionnaire/Questionnaire";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   let links = [
     {id:1, name:'Counter'},
     {id:2, name:'Modal'},
-    {id:3, name:'Counter'},
+    {id:3, name:'Questionnaire'},
     {id:4, name:'Counter'}
   ];
 
@@ -27,8 +28,9 @@ function App() {
         </ul>
       </nav>
 
-      {state === 1 && <Counter />}
+      {(state === 1 || state === 0) && <Counter />}
       {state === 2 && <OpenModal />}
+      {state === 3 && <Questionnaire />}
     </div>
   );
 
