@@ -1,0 +1,60 @@
+.todoContainer{
+    margin: 100px auto 0;
+    width: 50%;
+    text-align: center;
+}
+.createNewTodo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.todoCheckbox{
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    transition: transform ease-in-out 0.2s;
+}
+.todoCheckbox:hover{
+    transform: scale(1.1);
+}
+.addBtn{
+    background-color: darkseagreen;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    transition: transform ease-in-out 0.2s;
+}
+.addBtn:hover{
+    transform: scale(1.1);
+}
+.newTodoTitle{
+    color: darkseagreen;
+    border-bottom: 1px solid darkseagreen;
+}
+.todoTitle{
+    display: block;
+    overflow: auto;
+    font-size: 30px;
+}
+.todoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(100, 148, 237, 0.301);
+    border-radius: 10px;
+    transition: transform ease-in-out 0.2s;
+}
+.todoItem:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid darkseagreen;
+    color: darkseagreen;
+}
+.emptyList{
+    font-size: 30px;
+    opacity: 0.5;
+}

@@ -127,6 +127,7 @@ nav{
     font-size: 30px;
     background-color: #F74F00;
     color: #fff;
+    text-shadow: 3px 0px 1px #000;
     transition: none;
     transition: background-color ease-in-out 1s;
     transition: border-radius ease-in-out .7s;
@@ -135,6 +136,7 @@ nav{
 .nav__btn:hover{
     border-radius: 200px;
     background-color:#e0b90c;
+    text-shadow: none;
     color:#1F1F23;
 }
 .nav__btn:active{
